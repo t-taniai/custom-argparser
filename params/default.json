@@ -1,0 +1,11 @@
+{
+    "name": ["resnet", "an example of string type argument."],
+    "seed": [123, "an example of integer type argument."],
+    "lr": [0.0002, "an example of float type argument."],
+    "data_augment": [true, "an example of bool type argument."],
+    "datasets": [["dataset1", "dataset2"], "an example of list of strings argument."],
+    "image_size": [[320, 720], "an example of list of integers argument."],
+    "layer_dims": [[32], "an example of possibly plural integer argument."],
+    "activation": ["gelu", ["gelu", "relu", "leaky"], "an example of categorical string type argument."],
+    "test_only": ["store_true", "an example of boolean flag argument."]
+}
